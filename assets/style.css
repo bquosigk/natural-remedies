@@ -118,6 +118,10 @@ table.quick{border-collapse:collapse;width:100%;font-size:.92rem}
 .card{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:1.1rem 1.2rem;box-shadow:var(--shadow)}
 .card>header{display:flex;justify-content:space-between;gap:.6rem;align-items:flex-start;margin-bottom:.4rem}
 .card h3{margin:0}
+.author-note{margin:0 0 1rem;border-left:6px solid var(--brown);background:#fbf6ef}
+.author-note h3{color:var(--brown)}
+.author-note p{margin:.45rem 0 0}
+.author-xref{margin:.85rem 0 0;font-size:.92rem}
 .card dl{margin:0}
 .card dt{font-size:.75rem;text-transform:uppercase;letter-spacing:.06em;color:var(--brown);font-weight:700;margin-top:.7rem}
 .card dd{margin:.15rem 0 0;font-size:.96rem}
