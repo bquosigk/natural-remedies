@@ -33,7 +33,7 @@
     var start=Math.max(0,pos-70), end=Math.min(text.length,pos+170);
     return (start>0?'…':'')+text.slice(start,end)+(end<text.length?'…':'');
   }
-  var TYPEORDER={'Symptom':0,'Remedy':1,'Nature\u2019s Corner Market':2,'Ingredient':3,'Ground rule (kids)':4,'Safety & kids':5,'See a doctor':6,'Local resource':7,'Community note':8};
+  var TYPEORDER={'Symptom':0,'Remedy':1,'Nature\u2019s Corner Market':2,'Ingredient':3,'Ground rule (kids)':4,'Safety & kids':5,'See a doctor':6,'Local resource':7,'Community note':8,'Site author\'s experience':2};
   function run(){
     var q=norm(input.value).trim();
     var ratings=[].slice.call(document.querySelectorAll('input[name=rating]:checked')).map(function(x){return x.value;});
