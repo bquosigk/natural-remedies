@@ -121,6 +121,10 @@ table.quick{border-collapse:collapse;width:100%;font-size:.92rem}
 .author-note{margin:0 0 1rem;border-left:6px solid var(--brown);background:#fbf6ef}
 .author-note h3{color:var(--brown)}
 .author-note p{margin:.45rem 0 0}
+.author-note ul{margin:.35rem 0 0;padding-left:1.25rem}
+.author-note li{margin:.15rem 0}
+.author-note:has(+ .author-safety){margin-bottom:0}
+.author-safety{margin:.55rem 0 1rem}
 .author-xref{margin:.85rem 0 0;font-size:.92rem}
 .card dl{margin:0}
 .card dt{font-size:.75rem;text-transform:uppercase;letter-spacing:.06em;color:var(--brown);font-weight:700;margin-top:.7rem}
